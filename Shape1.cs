@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometri
 {
+    //Hvad bruger du denne klasse til??
     public class Shape1
     {
 
@@ -27,6 +28,7 @@ namespace Geometri
 
         public virtual double CalculateCircum()
         {
+           // Ouha, hvorfor gør du dette - det mås man ikke. Erklær metoden anstract i stedet
             double result = 0;
             return result;
         }
